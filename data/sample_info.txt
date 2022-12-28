@@ -1,0 +1,18 @@
+sampleLabels
+NanogKO_0h_1 NanogKO_0h
+NanogKO_0h_2 NanogKO_0h
+NanogKO_0h_3 NanogKO_0h
+NanogKO_12h_1 NanogKO_12h
+NanogKO_12h_2 NanogKO_12h
+NanogKO_12h_3 NanogKO_12h
+NanogKO_24h_1 NanogKO_24h
+NanogKO_24h_2 NanogKO_24h
+NanogKO_24h_3 NanogKO_24h
+WT_0h_1 WT_0h
+WT_0h_2 WT_0h
+WT_12h_1 WT_12h
+WT_12h_2 WT_12h
+WT_12h_3 WT_12h
+WT_24h_1 WT_24h
+WT_24h_2 WT_24h
+WT_24h_3 WT_24h
