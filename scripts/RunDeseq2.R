@@ -56,6 +56,13 @@ contrast.matrix <- makeContrasts(k240= NanogKO_24h - NanogKO_0h,
                                  levels=design)
 contrast.matrix
 
+# step 3 : Time series for Deseq
+dds.tmp <- DESeqDataSetFromMatrix(countData=counts$counts,
+                              colData=colData(ddsTxi),             # or colData=group,
+                              design= ~condition + time + condition:time)
+dds.tmp <- DESeq(dds.tmp, test="LRT", reduced = ~ condition + time)
+resTC <- results(dds.tmp, contrast = c("condition", "KO", "WT"))
+
 # Step 3: Run DESeq ----------------------
 dds <- DESeq(dds)
 resKO_24vs0 <- results(dds,contrast = c("group", "NanogKO_24h", "NanogKO_0h"))
