@@ -1,5 +1,13 @@
 # Understanding Nanog's role during cell differentiation: Master's Thesis
-This is a ---
+Pluripotency is characterized by the capacity to self-renew and differentiate into
+all cell types. This state relies on both extrinsic factors, such as leukemia inhibitory
+factor and bone morphogenetic protein, and intrinsic factors, including pluripotent
+transcription factors.
+While the role of pluripotent transcription factors in stem cell maintenance is well
+understood, their functions beyond pluripotency remain unclear. In this study, we
+focused on NANOG, a core member of the pluripotency network, and investigated its
+roles in two different models of differentiation: the transition from the naive to the primed
+pluripotent state and neuroectodermal differentiation.
 
 
 ## Preview
