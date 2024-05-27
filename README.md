@@ -28,9 +28,12 @@ Here we have combined multi omics datasets to answer our questions.
 3. ATAC-Seq [E-MTAB-7207](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30637-0)
 
 
-#workflow
+## Data Visualization / Quality check
 
-count data is available in the data folder
+To see if all the samples are appropriate for downstream analysis we perform some transformation using distance matrix and pca.
+
+1. ![Distance Matrix](./files/Distance_matrix.pdf)
+   
 
 
 
