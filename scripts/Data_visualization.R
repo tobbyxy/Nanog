@@ -1,17 +1,4 @@
-counts_data <- read.table('../../Downloads/counts_data.txt')
-head(counts_data)
-
-
-# read in sample info
-colData <- read.table('../../Downloads/sample_info.txt')
-colData
-colnames(colData) <- "group"
-dds <- DESeqDataSetFromMatrix(countData = counts_data,
-                              colData = colData,
-                              design = ~ group)
-dds
-keep <- rowSums(counts(dds)) >= 10
-dds <- dds[keep,]
+#assume you have the dds object from Deseq
 
 counts(dds)
 vsd <- vst(dds, blind=FALSE)
