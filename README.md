@@ -30,7 +30,7 @@ Here we have combined multi omics datasets to answer our questions.
 
 To see if all the samples are appropriate for downstream analysis we perform some transformation using distance matrix and pca.
 
-1. ![Distance Matrix]('./files/Distance_matrix.pdf')
+1. ![Distance Matrix](./files/Distance_matrix.pdf)
    
 
 
